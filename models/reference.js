@@ -7,4 +7,4 @@ const ReferenceSchema = new Schema({
   url: { type: String, required: true },
 });
 
-module.exports = mongoose.model('Work', ReferenceSchema);
+module.exports = mongoose.model('Reference', ReferenceSchema);
